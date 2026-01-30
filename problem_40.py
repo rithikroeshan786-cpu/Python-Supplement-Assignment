@@ -2,9 +2,9 @@
 # Find and fix the error
 
 def count_consonants(text):
-    vowels = "aeiouAEIOU"
+    vowels = "aeiou"
     count = 0
-    for char in text:
+    for char in text.lower():  # convert to lowercase
         if char.isalpha() and char not in vowels:
             count += 1
     return count
