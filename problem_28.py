@@ -3,7 +3,10 @@
 
 a = 10
 b = 20
+
+# Swap using a temporary variable
 temp = a
 a = b
-b = a
+b = temp
+
 print(f"a = {a}, b = {b}")
