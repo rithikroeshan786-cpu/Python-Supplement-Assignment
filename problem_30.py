@@ -7,4 +7,5 @@ def area_of_circle(radius):
     return area
 
 r = "5"
+r = float(r)  # Convert string to float
 print(f"Area: {area_of_circle(r)}")
