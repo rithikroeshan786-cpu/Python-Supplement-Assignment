@@ -8,6 +8,6 @@ index = -1
 for i in range(len(numbers)):
     if numbers[i] == search:
         index = i
-        break  # stop after finding the first occurrence
+        break  # stop after finding the first match
 
 print(f"Index of {search}: {index}")
