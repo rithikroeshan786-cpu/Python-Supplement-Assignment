@@ -2,9 +2,11 @@
 # Find and fix the error
 
 def is_palindrome(text):
+    text = text.lower()   # convert to lowercase
     return text == text[::-1]
 
 word = "Racecar"
+
 if is_palindrome(word):
     print(f"{word} is a palindrome")
 else:
